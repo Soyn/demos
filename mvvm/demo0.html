@@ -1,0 +1,29 @@
+<html>
+  <head></head>
+  <title>Data Binding</title>
+  <style>
+    #demo {
+      width: 500px;
+      height: 300px;
+      border: 1px solid;
+      padding: 5px;
+    }
+    #demo::before {
+      content: "Input"
+    }
+    #display {
+      border: 1px dotted blue;
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <div id="demo">
+        <input q-value="value" type="text" id="input"/>
+        <div q-text="value" id="display"></div>
+    </div>
+    <script type="text/javascript" src="./handySet.js"></script>
+  </body>
+</html>
