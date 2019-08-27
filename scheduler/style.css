@@ -1,0 +1,14 @@
+.mode {
+  margin-top: 20px;
+}
+
+.raw {
+  background-color: red;
+  margin: 5px 0;
+}
+
+.callback {
+  background-color: blue;
+  margin: 5px 0;
+
+}
